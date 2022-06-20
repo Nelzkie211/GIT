@@ -4,3 +4,7 @@ git commit -m 'Added my project'
 git remote add origin git@github.com:sammy/my-new-project.git
 git push -u -f origin master
 
+
+error in react => Plugin "react" was conflicted between "package.json » eslint-config-react-app
+npm uninstall eslint-config-react-app
+npm add eslint-config-react-app@6
